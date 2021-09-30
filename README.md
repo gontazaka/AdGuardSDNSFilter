@@ -1,20 +1,9 @@
 # AdGuard DNS filter
 
-Formerly *AdGuard Simplified Domain names filter*.
+Original readme : https://github.com/AdguardTeam/AdGuardSDNSFilter#readme  
 
-A filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
+The direct link to the filter  
+- iOS : https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_ios_optimized.txt
+- Android : https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_android_optimized.txt
 
-The direct link to the filter: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt.
-
-Please note, that to use this filter it is necessary to support [basic ad blocking rules syntax](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters). It does not make much sense to extract just the hosts file.
-
-This is a default filter for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) and for the public [AdGuard DNS](https://adguard.com/en/adguard-dns/overview.html) servers.
-
-### How to build AdGuard DNS filter manually
-
-```
-yarn install
-yarn run build
-```
-
-The output is written to `Filters/filter.txt`.
+The output is written to gh-pages branch.
