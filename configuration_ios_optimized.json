@@ -35,7 +35,7 @@
     },
     {
       "name": "AdGuard Tracking Protection filter",
-      "source": "build/platformsios/filters/3_optimized.txt",
+      "source": "build/platforms/ios/filters/3_optimized.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
