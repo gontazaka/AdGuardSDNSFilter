@@ -1,9 +1,9 @@
 name: 🔨Build AdGuard DNS filter
 
 on:
-  # push:
-  #   branches:
-  #     - master
+  push:
+    branches:
+      - master
   schedule:
     - cron: '17 19 * * *' # Every day
 
