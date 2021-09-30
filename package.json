@@ -6,9 +6,11 @@
   "author": "AdGuard",
   "license": "GPL-3.0",
   "scripts": {
-    "build": "hostlist-compiler -c configuration.json -o Filters/filter.txt --verbose"
+    "build-ios": "hostlist-compiler -c configuration_ios_optimized.json -o Filters/filter_ios_optimized.txt",
+    "build-android": "hostlist-compiler -c configuration_android_optimized.json -o Filters/filter_android_optimized.txt"
   },
   "dependencies": {
-    "@adguard/hostlist-compiler": "1.0.12"
+    "@adguard/hostlist-compiler": "1.0.12",
+    "adguard-filters-compiler": "git+https://github.com/AdguardTeam/FiltersCompiler.git#v1.1.28"
   }
 }

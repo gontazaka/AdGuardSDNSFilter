@@ -1,0 +1,16 @@
+! Homepage: https://github.com/AdguardTeam/AdGuardFilters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+!
+!-------------------------------------------------------------------------------!
+!-------------- Tracking servers list  -----------------------------------------!
+!-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt"
+!-------------------------------------------------------------------------------!
+!-------------- CNAME trackers  ------------------------------------------------!
+!-------------------------------------------------------------------------------!
+!@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/cname_trackers.txt"
+!-------------------------------------------------------------------------------!
+!-------------- Mobile analytics  ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt"

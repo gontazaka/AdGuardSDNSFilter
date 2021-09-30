@@ -1,0 +1,12 @@
+! Homepage: https://github.com/AdguardTeam/AdGuardFilters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+!
+!-------------------------------------------------------------------------------!
+!------------------ Advertising networks ---------------------------------------!
+!-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers_firstparty.txt"
+!-------------------------------------------------------------------------------!
+!------------------ News exchange ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/news_exchange.txt"

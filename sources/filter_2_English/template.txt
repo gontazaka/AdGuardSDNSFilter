@@ -1,0 +1,16 @@
+! Homepage: https://github.com/AdguardTeam/AdGuardFilters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+!
+!-------------------------------------------------------------------------------!
+!------------------ Advertising networks ---------------------------------------!
+!-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers_firstparty.txt"
+!-------------------------------------------------------------------------------!
+!------------------ Foreign rules ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/foreign.txt"
+!-------------------------------------------------------------------------------!
+!------------------ Anti-crypto-miners rules -----------------------------------!
+!-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/cryptominers.txt"

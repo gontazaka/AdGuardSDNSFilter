@@ -1,0 +1,10 @@
+! Homepage: https://github.com/AdguardTeam/AdGuardFilters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+!
+!---------------------------------------------------------------------------!
+!-------------- Advertising networks ---------------------------------------!
+!---------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/FrenchFilter/sections/adservers.txt"
+!@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/FrenchFilter/sections/adservers_firstparty.txt"
+!-------------- Liste FR rules -------------------------------------!
+!@include "https://easylist-downloads.adblockplus.org/liste_fr.txt" /stripComments /exclude="../exclusions.txt"

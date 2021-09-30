@@ -1,17 +1,21 @@
-name: Build AdGuard DNS filter
+name: 🔨Build AdGuard DNS filter
 
 on:
-  push:
+  # push:
+  #   branches:
+  #     - master
   schedule:
-    - cron: '0 */6 * * *' # Every hour
+    - cron: '17 19 * * *' # Every day
 
 jobs:
   build:
 
+    timeout-minutes: 10
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
+
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
@@ -20,11 +24,19 @@ jobs:
       - name: yarn
         run: |
           yarn install
-          yarn run build
+
+      - name: Compile
+        run: |
+          TLS=insecure node index.js
+
+      - name: Build DNS Filter
+        run: |
+          yarn run build-ios
+          yarn run build-android
 
       - name: prepare deploy
         run: |
-          mkdir build
+          mkdir -p build
           cp -rf Filters build/
         env:
           CI: true

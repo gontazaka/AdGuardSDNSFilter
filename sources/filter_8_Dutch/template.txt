@@ -1,0 +1,10 @@
+! Homepage: https://github.com/AdguardTeam/AdGuardFilters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+!
+!---------------------------------------------------------------------------!
+!@include "https://easylist-downloads.adblockplus.org/easylistdutch.txt" /stripComments /exclude="../exclusions.txt"
+!---------------------------------------------------------------------------!
+!-------------- Advertising networks ---------------------------------------!
+!---------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/DutchFilter/sections/adservers.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/DutchFilter/sections/adservers_firstparty.txt"
