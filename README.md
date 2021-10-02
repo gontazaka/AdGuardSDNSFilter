@@ -1,14 +1,14 @@
 # AdGuard DNS filter (experimental fork)
 
-[![🔨Build AdGuard DNS filter](https://github.com/gontazaka/AdGuardSDNSFilter/actions/workflows/workflow.yaml/badge.svg)](https://github.com/gontazaka/AdGuardSDNSFilter/actions/workflows/workflow.yaml)
+[![🔨Build DNS filter](https://github.com/gontazaka/AdGuardSDNSFilter/actions/workflows/workflow.yaml/badge.svg)](https://github.com/gontazaka/AdGuardSDNSFilter/actions/workflows/workflow.yaml)
 
 Original readme : https://github.com/AdguardTeam/AdGuardSDNSFilter#readme  
 
 ## ダウンロード
 
 The direct link to the filter  
-- iOS : https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_ios_optimized.txt
-- Android : https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_android_optimized.txt
+- ![iOS :](https://img.shields.io/badge/iOS-black?style=flat&logo=apple) https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_ios_optimized.txt
+- ![Android :](https://img.shields.io/badge/Android-whitesmoke?style=flat&logo=android) https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_android_optimized.txt
 
 The output is written to `gh-pages` branch.
 
