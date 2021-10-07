@@ -14,9 +14,9 @@ The output is written to `gh-pages` branch.
 
 ## これは何？
 
-**ルール数を減らして精度を低下**させたフィルター
+AdGuard DNS filterを**劣化させた**フィルター
 
-### ざっくりと
+### ざっくり
 
 まず前提として、AdGuardが配布するフィルターには通常版と[最適化(optimized)版](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#hints-1)が存在する。  
 「最適化」の要点は、、  
@@ -29,9 +29,9 @@ b. コメント等不要情報除去
 ということで*a*を行うのがこれ。  
 統計情報が存在するID:1,2,4,6,14,16に効果があり、EasyList系はたぶんそのまま。
 
-### ちなみに、、
+### ちなみに
 
 日本語サイト閲覧者の[統計情報の送信](https://kb.adguard.com/en/general/filter-rules-statistics)がどれくらい有効されているのか不明であり、当該環境では精度が大きく低下する可能性もある。
 
-## 技術情報
-[別冊](./documents/technical.md)
+## 付録
+[技術情報](./documents/technical.md)
