@@ -3,3 +3,6 @@ rules:
   - base: master
     upstream: AdguardTeam:master
     mergeMethod: merge
+    conflictReviewers:      # Optional, on merge conflict assign a reviewer
+      - gontazaka
+conflictLabel: "💥merge-conflict"
