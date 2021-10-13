@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@adguard/hostlist-compiler@1.0.12":
+"@adguard/hostlist-compiler@1.0.*":
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/@adguard/hostlist-compiler/-/hostlist-compiler-1.0.12.tgz#7a2020b17c52e5b5c882453cc2ff14f3a6cdddd1"
   integrity sha512-smQ1DjK7DEIvNCC1pZeX50fIqtnZfamDn73LOSZjJ+14+2IC1MP0IZrpsQk4d4vggz7uAo4wwg++taZis6Z21Q==
@@ -132,7 +132,7 @@ acorn@^8.2.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
   integrity sha512-yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==
 
-"adguard-filters-compiler@git+https://github.com/AdguardTeam/FiltersCompiler.git#v1.1.28":
+"adguard-filters-compiler@git+https://github.com/AdguardTeam/FiltersCompiler.git#v1.1.*":
   version "1.1.28"
   resolved "git+https://github.com/AdguardTeam/FiltersCompiler.git#c92ed2d664505a38d4e03c6617b853ac76cf8d9d"
   dependencies:
