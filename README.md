@@ -6,15 +6,14 @@ Original readme : https://github.com/AdguardTeam/AdGuardSDNSFilter#readme
 
 ## ダウンロード
 
-The direct link to the filter  
+The direct link to the filter.  
+You can use it, but it’s at your own risk.  
 - ![iOS :](https://img.shields.io/badge/iOS-black?style=flat&logo=apple) https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_ios_optimized.txt
 - ![Android :](https://img.shields.io/badge/Android-whitesmoke?style=flat&logo=android) https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_android_optimized.txt
 
-The output is written to `gh-pages` branch.
-
 ## これは何？
 
-AdGuard DNS filterを**劣化させた**フィルター
+AdGuard DNS filterを**劣化させた**なにか
 
 ### ざっくり
 
