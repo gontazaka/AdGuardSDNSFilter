@@ -2,7 +2,11 @@
 
 [![🔨Build DNS filter](https://github.com/gontazaka/AdGuardSDNSFilter/actions/workflows/workflow.yaml/badge.svg)](https://github.com/gontazaka/AdGuardSDNSFilter/actions/workflows/workflow.yaml)
 
-Original readme : https://github.com/AdguardTeam/AdGuardSDNSFilter#readme  
+Original Software Licensors
+Name | URL
+--- | ---
+AdGuardTeam / AdGuardSDNSFilter | https://github.com/AdguardTeam/AdGuardSDNSFilter
+AdGuardTeam / FiltersRegistry | https://github.com/AdguardTeam/FiltersRegistry
 
 ## ダウンロード
 
