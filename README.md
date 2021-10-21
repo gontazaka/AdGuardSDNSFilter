@@ -8,7 +8,7 @@ Name | URL
 AdGuardTeam / AdGuardSDNSFilter | https://github.com/AdguardTeam/AdGuardSDNSFilter
 AdGuardTeam / FiltersRegistry | https://github.com/AdguardTeam/FiltersRegistry
 
-## ダウンロード
+## Filters
 
 The direct link to the filter.  
 You can use it, but it’s at your own risk.  
