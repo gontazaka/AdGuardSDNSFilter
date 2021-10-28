@@ -10,7 +10,7 @@
     "build-android": "hostlist-compiler -c configuration_android_optimized.json -o Filters/filter_android_optimized.txt"
   },
   "dependencies": {
-    "@adguard/hostlist-compiler": "1.0.*",
-    "adguard-filters-compiler": "git+https://github.com/AdguardTeam/FiltersCompiler.git#v1.1.*"
+    "@adguard/hostlist-compiler": "^1.0.12",
+    "adguard-filters-compiler": "git+https://github.com/AdguardTeam/FiltersCompiler.git#semver:^1.1.32"
   }
 }
