@@ -12,12 +12,12 @@ AdGuardTeam / FiltersRegistry | https://github.com/AdguardTeam/FiltersRegistry
 
 The direct link to the filter.  
 You can use it, but it’s at your own risk.  
-- ![iOS :](https://img.shields.io/badge/iOS-black?style=flat&logo=apple) https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_ios_optimized.txt
-- ![Android :](https://img.shields.io/badge/Android-whitesmoke?style=flat&logo=android) https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_android_optimized.txt
+- ![iOS:](https://img.shields.io/badge/iOS-black?style=flat&logo=apple) <https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_ios_optimized.txt>  
+- ![Android:](https://img.shields.io/badge/Android-whitesmoke?style=flat&logo=android) <https://gontazaka.github.io/AdGuardSDNSFilter/Filters/filter_android_optimized.txt>  
 
 ## これは何？
 
-AdGuard DNS filterを**劣化させた**なにか
+AdGuard DNS filterを**劣化させた**なにか。  
 
 ### ざっくり
 
@@ -34,7 +34,7 @@ b. コメント等不要情報除去
 
 ### ちなみに
 
-日本語サイト閲覧者の[統計情報の送信](https://kb.adguard.com/en/general/filter-rules-statistics)がどれくらい有効されているのか不明であり、当該環境では精度が大きく低下する可能性もある。
+日本語サイト閲覧者の[統計情報の送信](https://kb.adguard.com/en/general/filter-rules-statistics)がどれくらい有効化されているのか不明であり、当該環境では精度が大きく低下する可能性もある。
 
 ## 付録
 [技術情報](./documents/technical.md)
