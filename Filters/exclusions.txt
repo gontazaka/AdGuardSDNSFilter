@@ -1,3 +1,14 @@
+! https://github.com/AdguardTeam/AdguardFilters/issues/101532
+||threatbook.cn^
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/777
+||autopilothq.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/99486
+! App shown 'invalid parameters' message on step with date input (ios)
+||log*-*.tiktokv.com^
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/pull/828
+||productsup.com^
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/826
+||atatus.com^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/815
 ||micpn.com^
 ! https://github.com/easylist/easylist/issues/9445
@@ -416,8 +427,9 @@
 ||anrdoezrs.net^
 ! Fixing proofpoint.com
 ||proofpoint.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/26914
+! https://github.com/AdguardTeam/AdguardFilters/issues/99952
 ||zmctrack.net^
+||znctrack.net^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/33
 ||localbitcoins.com^
 ! https://forum.adguard.com/index.php?threads/30479/

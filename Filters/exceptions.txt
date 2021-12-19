@@ -1,8 +1,15 @@
 ! Fixing the issue with "Wi-Fi" connection mark when you configure private DNS on Android 9
 ! Once you enable private DNS, Android 9 starts resolving random domains looking like
 ! `*-dnsotls-ds.metric.gstatic.com` (for instance, `a5a6380f-dnsotls-ds.metric.gstatic.com`).
-!
-!
+@@dnsotls-ds.metric.gstatic.com^
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/824
+@@||id.i2i.jp^|
+! https://github.com/AdguardTeam/AdguardFilters/issues/98798
+@@||thumbnail.thench.net^|
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/819
+@@||validate.perfdrive.com^|
+! https://github.com/AdguardTeam/AdguardFilters/issues/98729
+@@||ia.hit.interia.pl^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/797
 @@||r.sascdn.com^|
 ! https://forum.adguard.com/index.php?threads/amplitude-com-blocked.45115
@@ -30,9 +37,19 @@
 @@||ma135-r.analytics.edgekey.net^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89190
 @@||79423.analytics.edgekey.net^|
+!
 ! Blocked by CNAME ||leadpages.net^$third-party
+! https://github.com/AdguardTeam/AdguardFilters/issues/98565
+@@||classliving.lpages.co^|
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/829
+@@||home.focusatwill.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/707
 @@||health.halodoc.com^|
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/99102
+! Blocked by CNAME ||customer.io^
+@@||email*.123formbuilder.com^|
+!
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/709
 @@||promo.gramedia.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81939
@@ -150,8 +167,6 @@
 @@||guce.advertising.com^
 ! Unblock logrocket.com blog
 @@||blog.logrocket.com^|
-! AdGuard DNS blocks this domain but for some reason, it messes with Android's network validation process.
-@@dnsotls-ds.metric.gstatic.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27196
 @@||a.adwolf.ru^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26607
