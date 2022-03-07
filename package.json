@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@adguard/hostlist-compiler": "^1.0.12",
-    "adguard-filters-compiler": "git+https://github.com/gontazaka/FiltersCompiler.git"
+    "adguard-filters-compiler": "gontazaka/FiltersCompiler"
   }
 }
