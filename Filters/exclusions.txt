@@ -1,3 +1,9 @@
+! https://github.com/easylist/easylist/pull/10921
+||team-rec.jp^
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/998
+||pushpushgo.com^
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/996
+||ctrip.com^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/979
 ||sv.aq.qq.com^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/975
