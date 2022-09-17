@@ -6,7 +6,7 @@
   "author": "AdGuard",
   "license": "GPL-3.0",
   "scripts": {
-    "build-ios": "hostlist-compiler -c configuration_ios_optimized.json -o Filters/filter_ios_optimized.txt -v",
+    "build-ios": "hostlist-compiler -c configuration_ios_optimized.json -o Filters/filter_ios_optimized.txt",
     "build-android": "hostlist-compiler -c configuration_android_optimized.json -o Filters/filter_android_optimized.txt"
   },
   "dependencies": {
