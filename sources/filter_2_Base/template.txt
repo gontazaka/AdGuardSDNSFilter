@@ -4,13 +4,13 @@
 !-------------------------------------------------------------------------------!
 !------------------ Advertising networks ---------------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt"
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers_firstparty.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers_firstparty.txt"
 !-------------------------------------------------------------------------------!
 !------------------ Foreign rules ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/foreign.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/foreign.txt"
 !-------------------------------------------------------------------------------!
 !------------------ Anti-crypto-miners rules -----------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/cryptominers.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/cryptominers.txt"
