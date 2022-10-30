@@ -1,7 +1,1 @@
-! Homepage: https://github.com/AdguardTeam/AdGuardFilters
-! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
-!
-!---------------------------------------------------------------------------!
-!-------------- Advertising networks ---------------------------------------!
-!---------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SafariFilter/sections/adservers.txt"
+! Obsolete filter
