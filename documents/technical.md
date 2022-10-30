@@ -22,8 +22,3 @@ AdGuardが提供する`XX_optimized.txt`はDNS Filterに不要なルールも大
 2. FiltersCompilerを使い*1*よりDNS Filterに必要なファイルのみを対象に、プラットフォーム選別や統計情報による最適化(optimized)版を生成
 3. HostlistCompilerを使いDNSブロック用ルールを*2*やサードパーティーフィルターより生成
 4. GitHubでフィルターファイルホスティング
-
-## 細かい変更点
-
-### "transformations"
-コンパイル時全体に対して[`"Deduplicate"`](https://github.com/AdguardTeam/HostlistCompiler#deduplicate)を追加
