@@ -194,6 +194,13 @@
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
+      "name": "Persian Blocker Hosts",
+      "source": "https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate"]
+    },      
+    {
       "name": "Additional rules",
       "source": "Filters/rules.txt",
       "transformations": ["Validate"],
