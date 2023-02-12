@@ -21,7 +21,7 @@ AdGuard DNS filterを**劣化させた**なにか。
 
 ### ざっくり
 
-まず前提として、AdGuardが配布するフィルターには通常版と[最適化(optimized)版](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#hints-1)が存在する。  
+まず前提として、AdGuardが配布するフィルターには通常版と[最適化(optimized)版](https://adguard.com/kb/ja/general/ad-filtering/create-own-filters/#hints)が存在する。  
 「最適化」の要点は、、  
 a. 統計情報による低使用頻度ルール除去  
 b. コメント等不要情報除去  
