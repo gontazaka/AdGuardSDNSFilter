@@ -76,7 +76,7 @@
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
-      "name": "AdGuard Russian filter",
+      "name": "AdGuard common Cyrillic filters",
       "source": "build/platforms/android/filters/1_optimized.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
@@ -186,14 +186,14 @@
       "type": "adblock",
       "exclusions": ["/(?!^(\\|\\||@@\\|\\|))^.+/", "$third-party"],
       "transformations": ["RemoveModifiers", "Validate"]
-    },    
+    },
     {
       "name": "Persian Blocker Hosts",
       "source": "https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
-    },      
+    },
     {
       "name": "Additional rules",
       "source": "Filters/rules.txt",

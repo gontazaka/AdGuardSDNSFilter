@@ -76,7 +76,7 @@
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
-      "name": "AdGuard Russian filter",
+      "name": "AdGuard common Cyrillic filters",
       "source": "build/platforms/ios/filters/1_optimized.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
@@ -142,14 +142,8 @@
       "name": "Frellwits Swedish Filter",
       "source": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt",
       "type": "hosts",
-      "exclusions_sources": [
-        "Filters/exclusions.txt"
-      ],
-      "transformations": [
-        "RemoveModifiers",
-        "Validate",
-        "Compress"
-      ]
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate", "Compress"]
     },
     {
       "name": "EasyList Italy ad servers",
