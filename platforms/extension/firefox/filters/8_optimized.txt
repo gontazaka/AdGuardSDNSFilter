@@ -1,0 +1,14 @@
+! Checksum: d2y0KNbNduRVz30avfchCQ
+! Title: AdGuard Dutch filter (Optimized)
+! Description: EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.
+! Version: 1.0.0.0
+! TimeUpdated: 2023-05-28T04:18:22+00:00
+! Expires: 4 days (update frequency)
+||cdn.optoutadvertising.com^
+||pexi.nl^$third-party
+||adconfigproxy.azurewebsites.net^$third-party
+||content2.nrc.nl^
+||aa.hwigroup.com^
+||ab.hwigroup.com^
+||aa.tweakers.nl^
+||ab.tweakers.nl^

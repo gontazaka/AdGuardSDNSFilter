@@ -1,0 +1,88 @@
+
+FiltersCompiler report 5/28/2023 4:18:15 AM:
+
+Filter ID: 11
+Filter name: AdGuard Mobile Ads filter
+Compiled rules: 994
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/11.txt
+All rules are valid.
+---------------------------
+Filter ID: 12
+Filter name: AdGuard Safari filter
+Compiled rules: 1
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/12.txt
+All rules are valid.
+---------------------------
+Filter ID: 13
+Filter name: AdGuard Turkish filter
+Compiled rules: 392
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/13.txt
+All rules are valid.
+---------------------------
+Filter ID: 16
+Filter name: AdGuard French filter
+Compiled rules: 34
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/16.txt
+All rules are valid.
+---------------------------
+Filter ID: 1
+Filter name: AdGuard Russian filter
+Compiled rules: 4498
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/1.txt
+All rules are valid.
+---------------------------
+Filter ID: 224
+Filter name: AdGuard Chinese filter
+Compiled rules: 357
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/224.txt
+All rules are valid.
+---------------------------
+Filter ID: 2
+Filter name: AdGuard Base filter
+Compiled rules: 11644
+Excluded rules: 2230
+URL: https://filters.adtidy.org/extension/chromium/filters/2.txt
+INVALID RULES:
+Error: "Unknown modifier: webrtc" in the rule: "@@$webrtc,domain=walla.co.il"
+---------------------------
+Filter ID: 3
+Filter name: AdGuard Tracking Protection filter
+Compiled rules: 8446
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/3.txt
+All rules are valid.
+---------------------------
+Filter ID: 6
+Filter name: AdGuard German filter
+Compiled rules: 51
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/6.txt
+All rules are valid.
+---------------------------
+Filter ID: 7
+Filter name: AdGuard Japanese filter
+Compiled rules: 415
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/7.txt
+All rules are valid.
+---------------------------
+Filter ID: 8
+Filter name: AdGuard Dutch filter
+Compiled rules: 37
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/8.txt
+All rules are valid.
+---------------------------
+Filter ID: 9
+Filter name: AdGuard Spanish/Portuguese filter
+Compiled rules: 210
+Excluded rules: 0
+URL: https://filters.adtidy.org/extension/chromium/filters/9.txt
+All rules are valid.
+---------------------------

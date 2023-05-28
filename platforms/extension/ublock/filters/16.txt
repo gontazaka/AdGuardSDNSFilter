@@ -1,0 +1,39 @@
+![Adblock Plus 2.0]
+! Checksum: S2tYTC5sO9KjWiDX6irfbw
+! Title: AdGuard French filter
+! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
+! Version: 1.0.0.0
+! TimeUpdated: 2023-05-28T04:18:16+00:00
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/AdguardTeam/AdGuardFilters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+!
+!---------------------------------------------------------------------------!
+!-------------- Advertising networks ---------------------------------------!
+!---------------------------------------------------------------------------!
+!
+! This section contains the list of third-party advertising networks domains. In that case domain should be added to the common rules.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
+!
+||ads.dugwood.com^
+||caraneoutraze.uno^
+||edtheparllase.com^
+||ukennailsandoth.xyz^
+||desadu.com^
+||xydestygre.com^
+||be-rtl.videoplaza.tv^
+||fristminyas.com^$third-party
+||ukslphcgs.com^$third-party
+||rozivpxtl.com^$third-party
+||habrox.xyz^$third-party
+||mystighty.info^
+||i4tvy8vk9f74.com^$third-party
+||mineralisasse.site^$third-party
+!@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/FrenchFilter/sections/adservers_firstparty.txt"
+!-------------- Liste FR rules -------------------------------------!
+!@include "https://easylist-downloads.adblockplus.org/liste_fr.txt" /stripComments /exclude="../exclusions.txt"

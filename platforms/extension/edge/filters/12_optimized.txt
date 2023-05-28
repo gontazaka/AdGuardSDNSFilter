@@ -1,0 +1,6 @@
+! Checksum: BP82HNMNJxkhAiS+EhudFg
+! Title: AdGuard Safari filter (Optimized)
+! Description: Special filter for Safari 9+ on iOS and Mac OS. We need a separate filter for Safari browser because it does not fully support our rules syntax. Already included in AdGuard Base filter.
+! Version: 1.0.0.0
+! TimeUpdated: 2023-05-28T04:18:15+00:00
+! Expires: 4 days (update frequency)
